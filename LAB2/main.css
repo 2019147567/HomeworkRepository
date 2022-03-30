@@ -1,0 +1,15 @@
+a {
+    background-color: azure;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border-style: solid; 
+    font-size: medium;
+    font-family: initial;
+    color: black;
+    width: 250px;
+    height: 6em;
+}
+b {
+    text-align: left;
+}

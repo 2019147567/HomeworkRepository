@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Internet-Programming Item Shop</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <h1>Internet-Programming Item Shop</h1>
+        <a href="login.html">
+        <button>로그인</button>
+        </a>
+        <a href="sighnup.html">
+        <button>회원가입</button>
+        </a>
+        <form name="폼 태그 이름" action="데이터를 보낼 주소" method="데이터 전송 방식">
+            <p><label>
+                이름<input type="text" name="NA" autofocus required /></label></p>
+            <p><label>
+                학년<input type="number" name="YR" min="1" max="4" step="1" /></label></p>
+            <p><lable>
+                전화번호(-제외)<input type="number" name="PN" required pattern="^[0-9]+$" /></lable></p>
+            <p><lable>
+                아이디<input type="text" name="ID" placeholder="아이디를 입력하세요." required /></lable></p>
+            <p><lable>
+                비밀번호<input type="text" name="PS" placeholder="비밀번호를 입력하세요." required /></lable></p>
+            <p><lable>
+                비밀번호 확인<input type="text" name="PS" required /></lable></p>
+        </form>
+        <a href="login.html">
+            <button>sighnup</button>
+        </a>
+        <a href="login.html">
+            <button>cancel</button>
+        </a>
+        <a href="sighnup.html">
+            <button>refresh</button>
+        </a>
+    </body>
+</html>
